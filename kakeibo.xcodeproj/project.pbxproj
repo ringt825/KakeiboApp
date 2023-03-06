@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E672FB8829B601EA0071DC0E /* kakeiboApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672FB8729B601EA0071DC0E /* kakeiboApp.swift */; };
+		E672FB8A29B601EA0071DC0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672FB8929B601EA0071DC0E /* ContentView.swift */; };
+		E672FB8C29B601EC0071DC0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E672FB8B29B601EC0071DC0E /* Assets.xcassets */; };
+		E672FB8F29B601EC0071DC0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E672FB8E29B601EC0071DC0E /* Preview Assets.xcassets */; };
+		E672FB9929B601EC0071DC0E /* kakeiboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672FB9829B601EC0071DC0E /* kakeiboTests.swift */; };
+		E672FBA329B601EC0071DC0E /* kakeiboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672FBA229B601EC0071DC0E /* kakeiboUITests.swift */; };
+		E672FBA529B601EC0071DC0E /* kakeiboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E672FBA429B601EC0071DC0E /* kakeiboUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E672FB9529B601EC0071DC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E672FB7C29B601EA0071DC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E672FB8329B601EA0071DC0E;
+			remoteInfo = kakeibo;
+		};
+		E672FB9F29B601EC0071DC0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E672FB7C29B601EA0071DC0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E672FB8329B601EA0071DC0E;
+			remoteInfo = kakeibo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E672FB8429B601EA0071DC0E /* kakeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E672FB8729B601EA0071DC0E /* kakeiboApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakeiboApp.swift; sourceTree = "<group>"; };
+		E672FB8929B601EA0071DC0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E672FB8B29B601EC0071DC0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E672FB8E29B601EC0071DC0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E672FB9429B601EC0071DC0E /* kakeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E672FB9829B601EC0071DC0E /* kakeiboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakeiboTests.swift; sourceTree = "<group>"; };
+		E672FB9E29B601EC0071DC0E /* kakeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E672FBA229B601EC0071DC0E /* kakeiboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakeiboUITests.swift; sourceTree = "<group>"; };
+		E672FBA429B601EC0071DC0E /* kakeiboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakeiboUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E672FB8129B601EA0071DC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9129B601EC0071DC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9B29B601EC0071DC0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E672FB7B29B601EA0071DC0E = {
+			isa = PBXGroup;
+			children = (
+				E672FB8629B601EA0071DC0E /* kakeibo */,
+				E672FB9729B601EC0071DC0E /* kakeiboTests */,
+				E672FBA129B601EC0071DC0E /* kakeiboUITests */,
+				E672FB8529B601EA0071DC0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E672FB8529B601EA0071DC0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E672FB8429B601EA0071DC0E /* kakeibo.app */,
+				E672FB9429B601EC0071DC0E /* kakeiboTests.xctest */,
+				E672FB9E29B601EC0071DC0E /* kakeiboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E672FB8629B601EA0071DC0E /* kakeibo */ = {
+			isa = PBXGroup;
+			children = (
+				E672FB8729B601EA0071DC0E /* kakeiboApp.swift */,
+				E672FB8929B601EA0071DC0E /* ContentView.swift */,
+				E672FB8B29B601EC0071DC0E /* Assets.xcassets */,
+				E672FB8D29B601EC0071DC0E /* Preview Content */,
+			);
+			path = kakeibo;
+			sourceTree = "<group>";
+		};
+		E672FB8D29B601EC0071DC0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E672FB8E29B601EC0071DC0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E672FB9729B601EC0071DC0E /* kakeiboTests */ = {
+			isa = PBXGroup;
+			children = (
+				E672FB9829B601EC0071DC0E /* kakeiboTests.swift */,
+			);
+			path = kakeiboTests;
+			sourceTree = "<group>";
+		};
+		E672FBA129B601EC0071DC0E /* kakeiboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E672FBA229B601EC0071DC0E /* kakeiboUITests.swift */,
+				E672FBA429B601EC0071DC0E /* kakeiboUITestsLaunchTests.swift */,
+			);
+			path = kakeiboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E672FB8329B601EA0071DC0E /* kakeibo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E672FBA829B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeibo" */;
+			buildPhases = (
+				E672FB8029B601EA0071DC0E /* Sources */,
+				E672FB8129B601EA0071DC0E /* Frameworks */,
+				E672FB8229B601EA0071DC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kakeibo;
+			productName = kakeibo;
+			productReference = E672FB8429B601EA0071DC0E /* kakeibo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E672FB9329B601EC0071DC0E /* kakeiboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E672FBAB29B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeiboTests" */;
+			buildPhases = (
+				E672FB9029B601EC0071DC0E /* Sources */,
+				E672FB9129B601EC0071DC0E /* Frameworks */,
+				E672FB9229B601EC0071DC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E672FB9629B601EC0071DC0E /* PBXTargetDependency */,
+			);
+			name = kakeiboTests;
+			productName = kakeiboTests;
+			productReference = E672FB9429B601EC0071DC0E /* kakeiboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E672FB9D29B601EC0071DC0E /* kakeiboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E672FBAE29B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeiboUITests" */;
+			buildPhases = (
+				E672FB9A29B601EC0071DC0E /* Sources */,
+				E672FB9B29B601EC0071DC0E /* Frameworks */,
+				E672FB9C29B601EC0071DC0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E672FBA029B601EC0071DC0E /* PBXTargetDependency */,
+			);
+			name = kakeiboUITests;
+			productName = kakeiboUITests;
+			productReference = E672FB9E29B601EC0071DC0E /* kakeiboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E672FB7C29B601EA0071DC0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E672FB8329B601EA0071DC0E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E672FB9329B601EC0071DC0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E672FB8329B601EA0071DC0E;
+					};
+					E672FB9D29B601EC0071DC0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E672FB8329B601EA0071DC0E;
+					};
+				};
+			};
+			buildConfigurationList = E672FB7F29B601EA0071DC0E /* Build configuration list for PBXProject "kakeibo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E672FB7B29B601EA0071DC0E;
+			productRefGroup = E672FB8529B601EA0071DC0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E672FB8329B601EA0071DC0E /* kakeibo */,
+				E672FB9329B601EC0071DC0E /* kakeiboTests */,
+				E672FB9D29B601EC0071DC0E /* kakeiboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E672FB8229B601EA0071DC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E672FB8F29B601EC0071DC0E /* Preview Assets.xcassets in Resources */,
+				E672FB8C29B601EC0071DC0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9229B601EC0071DC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9C29B601EC0071DC0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E672FB8029B601EA0071DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E672FB8A29B601EA0071DC0E /* ContentView.swift in Sources */,
+				E672FB8829B601EA0071DC0E /* kakeiboApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9029B601EC0071DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E672FB9929B601EC0071DC0E /* kakeiboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672FB9A29B601EC0071DC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E672FBA329B601EC0071DC0E /* kakeiboUITests.swift in Sources */,
+				E672FBA529B601EC0071DC0E /* kakeiboUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E672FB9629B601EC0071DC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E672FB8329B601EA0071DC0E /* kakeibo */;
+			targetProxy = E672FB9529B601EC0071DC0E /* PBXContainerItemProxy */;
+		};
+		E672FBA029B601EC0071DC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E672FB8329B601EA0071DC0E /* kakeibo */;
+			targetProxy = E672FB9F29B601EC0071DC0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E672FBA629B601EC0071DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E672FBA729B601EC0071DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E672FBA929B601EC0071DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakeibo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E672FBAA29B601EC0071DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kakeibo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeibo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E672FBAC29B601EC0071DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeiboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakeibo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakeibo";
+			};
+			name = Debug;
+		};
+		E672FBAD29B601EC0071DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeiboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kakeibo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kakeibo";
+			};
+			name = Release;
+		};
+		E672FBAF29B601EC0071DC0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeiboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakeibo;
+			};
+			name = Debug;
+		};
+		E672FBB029B601EC0071DC0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmail-ringt825.kakeiboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kakeibo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E672FB7F29B601EA0071DC0E /* Build configuration list for PBXProject "kakeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672FBA629B601EC0071DC0E /* Debug */,
+				E672FBA729B601EC0071DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672FBA829B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeibo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672FBA929B601EC0071DC0E /* Debug */,
+				E672FBAA29B601EC0071DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672FBAB29B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeiboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672FBAC29B601EC0071DC0E /* Debug */,
+				E672FBAD29B601EC0071DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672FBAE29B601EC0071DC0E /* Build configuration list for PBXNativeTarget "kakeiboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672FBAF29B601EC0071DC0E /* Debug */,
+				E672FBB029B601EC0071DC0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E672FB7C29B601EA0071DC0E /* Project object */;
+}
